@@ -1,7 +1,7 @@
 <?php
   include("database2.php");
 
-  $sql = "SELECT * FROM users = 'Sandy'";
+  $sql = "SELECT * FROM users2 = 'Sandy'";
   $result =  mysqli_query($conn, $sql);
 
   if(mysqli_num_rows($result) > 0){     // The mysqli_num_rows() function returns the number of rows in a result set.
